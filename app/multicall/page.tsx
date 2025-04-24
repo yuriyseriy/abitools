@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { decodeFunctionData, encodeFunctionData, parseAbi } from "viem";
+import { decodeFunctionData, parseAbi } from "viem";
 
 const abi = parseAbi([
   "struct Call { address target; bytes callData; }",
